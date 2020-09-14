@@ -1,8 +1,22 @@
 body{
   background-color: rgba(238, 255, 0, 0.486);
 }
-
-
+li#c1{
+  background-color: rgb(0, 156, 228);
+}
+table{
+  font-family: "serif";
+  font-size: 1.5em;
+}
+.odd{
+  background-color: rgb(131, 138, 141);
+}
+.header{
+  background-color: rgb(0, 0, 0)
+}
+th#a1{
+  color: white;
+}
 ol#a {
   list-style-type: upper-roman;
   margin-top: 40px;
