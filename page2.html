@@ -2,64 +2,68 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header>
+
+    <header class="header">
       <img src="images/KnowDaut.png">
     </header>
-    <nav>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="page1.html">Page 1</a></li>
-      <li><a href="page2.html">Page 2</a></li>
-      <li><a href="https://www.columbusstate.edu/">CSU Homepage</a></li>
-    </nav>
-    <main>
-      <table width='100%' border=2px cellspacing=0>
-        <caption> HTML tags learned!</caption>
-        <tr class="header">
-          <th id="a1">Tags</th>
-          <th id="a1">Attributes</th>
-        </tr>
-        <tr class="odd">
-          <td>
-            <li>Main</li>
-          </td>
-          <td>1. Defines the main section of the website (where i am putting this table!)</td>
-        </tr>
-        <tr class="even">
-          <td>
-            <li>Header</li>
-          </td>
-          <td>2. Defines the header block of the website!</td>
-        </tr>
-        <tr class="odd">
-          <td>
-            <li>Nav</li>
-          </td>
-          <td>3. Defines the navigation section of the website!</td>
-        </tr>
-        <tr class="even">
-          <td>
-            <li>Footer</li>
-          </td>
-          <td>4. Defines the footer section of the website!</td>
-        </tr>
-        <tr class="odd">
-          <td>
-            <li>Paragraph</li>
-          </td>
-          <td>5. The syntax would be <code> p and /p respectively </code> and it defines a paragraph of the website!</td>
-        </tr>
 
-          
+    <div class="row">
+      <nav class="col-1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page1.html">Page 1</a></li>
+        <li><a href="page2.html">Page 2</a></li>
+        <li><a href="page3.html">Page 3</a></li>
+        <li><a href="https://www.columbusstate.edu/">CSU Homepage</a></li>
+      </nav>
+      <main class="col-2">
+        <table width='100%' border=2px cellspacing=0>
+          <caption> HTML tags learned!</caption>
+          <tr class="header">
+            <th id="a1">Tags</th>
+            <th id="a1">Attributes</th>
+          </tr>
+          <tr class="odd">
+            <td>
+              <li>Main</li>
+            </td>
+            <td>1. Defines the main section of the website (where i am putting this table!)</td>
+          </tr>
+          <tr class="even">
+            <td>
+              <li>Header</li>
+            </td>
+            <td>2. Defines the header block of the website!</td>
+          </tr>
+          <tr class="odd">
+            <td>
+              <li>Nav</li>
+            </td>
+            <td>3. Defines the navigation section of the website!</td>
+          </tr>
+          <tr class="even">
+            <td>
+              <li>Footer</li>
+            </td>
+            <td>4. Defines the footer section of the website!</td>
+          </tr>
+          <tr class="odd">
+            <td>
+              <li>Paragraph</li>
+            </td>
+            <td>5. The syntax would be <code> p and /p respectively </code> and it defines a paragraph of the website!</td>
+          </tr>
+      </main>
+      <aside class="col-3">
+        why isnt this working
+      </aside>
+    </div>
 
-
-    </main>
-
-    <footer>
+    <footer class="footer">
       <p>Contact info: </p>
       <ul>
         <li> Nicholas Daut</li>
